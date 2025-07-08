@@ -1,11 +1,85 @@
+/* site.css */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    color: #333;
-    padding: 20px;
-    text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6a1b9a, #8e24aa);
+  margin: 0;
+  padding-bottom: 60px; /* space for footer */
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-h1 {
-    color: #0078D7;
+
+header {
+  background: #4a148c;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+main {
+  flex-grow: 1;
+  max-width: 800px;
+  margin: 3rem auto;
+  background: rgba(255,255,255,0.1);
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+main h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+main p {
+  font-size: 1.3rem;
+  margin: 0.6rem 0;
+  font-weight: 500;
+}
+
+main img {
+  margin-top: 2rem;
+  width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+main img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+footer {
+  background: #2e0854;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 8px rgba(0,0,0,0.3);
+}
+
+.highlight {
+  color: #fbc02d;
+  font-weight: 700;
+  animation: glow 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% { text-shadow: 0 0 5px #fbc02d, 0 0 15px #fbc02d; }
+  100% { text-shadow: 0 0 20px #ffeb3b, 0 0 40px #ffeb3b; }
 }
