@@ -1,3 +1,4 @@
+C:\Users\User\MyWebApp\bin\Debug\net8.0\publishprofile.json
 C:\Users\User\MyWebApp\bin\Debug\net8.0\MyWebApp.staticwebassets.runtime.json
 C:\Users\User\MyWebApp\bin\Debug\net8.0\MyWebApp.exe
 C:\Users\User\MyWebApp\bin\Debug\net8.0\MyWebApp.deps.json
@@ -11,6 +12,7 @@ C:\Users\User\MyWebApp\obj\Debug\net8.0\MyWebApp.csproj.CoreCompileInputs.cache
 C:\Users\User\MyWebApp\obj\Debug\net8.0\MyWebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\MyWebApp\obj\Debug\net8.0\MyWebApp.RazorAssemblyInfo.cache
 C:\Users\User\MyWebApp\obj\Debug\net8.0\MyWebApp.RazorAssemblyInfo.cs
+C:\Users\User\MyWebApp\obj\Debug\net8.0\MyWebApp.sourcelink.json
 C:\Users\User\MyWebApp\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\User\MyWebApp\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\User\MyWebApp\obj\Debug\net8.0\staticwebassets\msbuild.MyWebApp.Microsoft.AspNetCore.StaticWebAssets.props
@@ -24,3 +26,7 @@ C:\Users\User\MyWebApp\obj\Debug\net8.0\refint\MyWebApp.dll
 C:\Users\User\MyWebApp\obj\Debug\net8.0\MyWebApp.pdb
 C:\Users\User\MyWebApp\obj\Debug\net8.0\MyWebApp.genruntimeconfig.cache
 C:\Users\User\MyWebApp\obj\Debug\net8.0\ref\MyWebApp.dll
+C:\Users\User\MyWebApp\bin\Debug\net8.0\publish\web.config
+C:\Users\User\MyWebApp\bin\Debug\net8.0\publish\MyWebApp.deps.json
+C:\Users\User\MyWebApp\bin\Debug\net8.0\publish\MyWebApp.runtimeconfig.json
+C:\Users\User\MyWebApp\bin\Debug\net8.0\publish\publishprofile.json
